@@ -1,1 +1,15 @@
-Enter a domain to generate a JSON file
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.orchestradev.xoandia",
+      "sha256_cert_fingerprints": [
+        "6B:19:FE:93:97:A9:5C:50:CA:5A:C8:A0:A7:14:6B:24:27:38:2B:D1:2A:80:DE:4B:70:7B:AA:24:6A:9A:E8:AB"
+      ]
+    }
+  }
+]
